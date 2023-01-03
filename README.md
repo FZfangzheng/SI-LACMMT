@@ -4,7 +4,7 @@ Level-Aware Consistent Multi-level Map Translation From Satellite Imagery
 
 [Ying Fu](https://ying-fu.github.io/), Zheng Fang, Linwei Chen, Tao Song, and Defu Lin 
 
-<img src="https://github.com/FZfangzheng/SI-LACMMT/blob/main/img/example1.jpg" alt="图片替换文本" width="350" align="bottom" />
+<img src="https://github.com/FZfangzheng/SI-LACMMT/blob/master/img/example1.jpg" alt="图片替换文本" width="350" align="bottom" />
 
 ## 1. Image2image translation and map generation methods
 
@@ -50,11 +50,11 @@ pip install -r requirements.txt
 
 The advantages of our dataset over other datasets are as follows：
 
-![image-20221214203605415](https://github.com/FZfangzheng/SI-LACMMT/blob/main/img/data1.jpg)
+![image-20221214203605415](https://github.com/FZfangzheng/SI-LACMMT/blob/master/img/data1.png)
 
 Our data contains multiple types of images, and has multi-level data in the same area. In addition, we have balanced the data of each level to ensure the balance of training.
 
-![image-20221214203621871](https://github.com/FZfangzheng/SI-LACMMT/blob/main/img/data2.jpg)
+![image-20221214203621871](https://github.com/FZfangzheng/SI-LACMMT/blob/master/img/data2.png)
 
 The specific content of our data set is as shown above, including data from US and CN countries. The data volume of each level of training set is 2k. The test set is multi-level data in the same region, and the number of high-level data is four times that of low-level data.
 
