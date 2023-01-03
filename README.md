@@ -4,7 +4,7 @@ Level-Aware Consistent Multi-level Map Translation From Satellite Imagery
 
 [Ying Fu](https://ying-fu.github.io/), Zheng Fang, Linwei Chen, Tao Song, and Defu Lin 
 
-<img src="https://github.com/FZfangzheng/SI-LACMMT/blob/master/img/example1.jpg" alt="图片替换文本" width="350" align="bottom" />
+<img src="https://github.com/FZfangzheng/SI-LACMMT/blob/master/img/example1.png" alt="图片替换文本" width="350" align="bottom" />
 
 ## 1. Image2image translation and map generation methods
 
@@ -15,9 +15,7 @@ Level-Aware Consistent Multi-level Map Translation From Satellite Imagery
 * [x] [SelectionGAN](https://openaccess.thecvf.com/content_CVPR_2019/html/Tang_Multi-Channel_Attention_Selection_GAN_With_Cascaded_Semantic_Guidance_for_Cross-View_CVPR_2019_paper.html) (CVPR 2019)
 * [x] [TSIT](https://link.springer.com/chapter/10.1007/978-3-030-58580-8_13) (ECCV 2020)
 * [x] [LPTN](https://openaccess.thecvf.com/content/CVPR2021/html/Lin_Drafting_and_Revision_Laplacian_Pyramid_Network_for_Fast_High-Quality_Artistic_CVPR_2021_paper.html?ref=https://githubhelp.com) (CVPR 2021)
-* [x] [SMAPGAN](Smapgan:
-Generative adversarial network-based semisupervised styled map tile
-generation method) (TGRS 2020)
+* [x] [SMAPGAN](https://ieeexplore.ieee.org/document/9200723/) (TGRS 2020)
 * [x] [CreativeGAN](https://ieeexplore.ieee.org/document/9540226) (TGRS 2021)
 * [x] [SI-LACMMT](https://ieeexplore.ieee.org/document/9950295/) (TGRS 2022)
 * [x] [LAMG_MLMG](https://ieeexplore.ieee.org/document/9764398) (JSTAR 2022) 
