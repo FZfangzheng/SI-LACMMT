@@ -1,0 +1,31 @@
+#--dataroot /data3/fz/experiment/US/US_dataset \
+#--save /data3/fz/experiment_quick/US/US_dataset_pix2pixHD_starganv1_v2_out \
+CUDA_VISIBLE_DEVICES=0 python ./src/LACMMT/train_LACMMT.py \
+--dataroot ./dataset/CN_dataset \
+--save ./checkpoints/train_LACMMT \
+--lambda_c_d 0.5 \
+--C_lr 0.00001 \
+--gpu 1 \
+--epochs 100 \
+--batch_size 4 \
+--test_batch_size 2 \
+--loadSize 256 \
+--fineSize 256 \
+--crop_size 256 \
+--resize_or_crop resize_and_crop \
+--feat_num 0 \
+--use_instance 0 \
+--prefetch 0 \
+--label_nc 3 \
+--focal_alpha_revise 1 1 1 \
+--a_loss 1 1 1 1 \
+--use_vgg_loss 1 \
+--use_ganFeat_loss 1 \
+--use_ssim_loss 0 \
+--use_low_level_loss 1 \
+--low_level_loss L1 \
+--netG local \
+--netD originD \
+--n_downsample_global 3 \
+--if_mutil_layer 0 \
+--layer_num 4

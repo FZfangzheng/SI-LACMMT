@@ -1,0 +1,1 @@
+python ./src/SelectionGAN/test.py --dataroot ./dataset/CN_dataset --name selectiongan --model selectiongan --which_model_netG unet_256 --which_direction AtoB --dataset_mode aligned --norm batch --gpu_ids 0 --batchSize 4 --loadSize 256 --fineSize 256 --no_flip --eval --saveDisk
