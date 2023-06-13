@@ -19,6 +19,7 @@ Level-Aware Consistent Multi-level Map Translation From Satellite Imagery
 * [x] [CreativeGAN](https://ieeexplore.ieee.org/document/9540226) (TGRS 2021)
 * [x] [SI-LACMMT](https://ieeexplore.ieee.org/document/9950295/) (TGRS 2022)
 * [x] [LAMG_MLMG](https://ieeexplore.ieee.org/document/9764398) (JSTAR 2022) 
+* [x] [SingleLevelMapGenerator](http://www.cjig.cn/jig/ch/reader/view_abstract.aspx?file_no=202208300000001) (中国图象图形学报 2023) 
 
 | Method       | FID$\downarrow$ | KMMD$\downarrow$ | WD$\downarrow$ | PSNR$\uparrow$ | Model          |
 | ------------ | --------------- | ---------------- | -------------- | -------------- | -------------- |
@@ -89,7 +90,8 @@ following form:
 ### 4.1　Training
 
 1. Download the dataset and move it to the dataset folder.
-2. Execute the following command to train the corresponding model.
+2. Download the [pretrained model](https://pan.baidu.com/s/1i4wnqdI1iYmAwImzdTVFpA?pwd=up35) and move it to src/LACMMT/.
+3. Execute the following command to train the corresponding model.
 ```shell
 cd "root_path"
 bash scripts/train_CreativeGAN.sh
@@ -116,20 +118,27 @@ bash scripts/test_CreativeGAN.sh
 
 ```bibtex
 @article{fu2022level,
-  title={Level-Aware Consistent Multi-level Map Translation From Satellite Imagery},
+  title={Level-Aware Consistent Multilevel Map Translation From Satellite Imagery},
   author={Fu, Ying and Fang, Zheng and Chen, Linwei and Song, Tao and Lin, Defu},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={61},
+  pages={1--14},
   year={2022},
   publisher={IEEE}
 }
-@ARTICLE{9764398,
-  title={Consistency-Aware Map Generation at Multiple Zoom Levels Using Aerial Image}, 
+@article{chen2022consistency,
+  title={Consistency-Aware Map Generation at Multiple Zoom Levels Using Aerial Image},
   author={Chen, Linwei and Fang, Zheng and Fu, Ying},
-  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
-  year={2022},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
   volume={15},
-  pages={5953-5966},
-  doi={10.1109/JSTARS.2022.3170591}}
+  pages={5953--5966},
+  year={2022},
+  publisher={IEEE}
+}
+@article{FZ_transformer,
+  title={Transformer特征引导的双阶段地图智能生成},
+  author={方政 and 付莹 and 刘利雄}
+}
 ```
 
 ## 6.News :sparkles:
